@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Content = styled.header`
 
 background: #1E90FF;
-height: 3.75rem;
+height: 4rem;
 display: flex;
 justify-content: center;
 width: 33rem;
