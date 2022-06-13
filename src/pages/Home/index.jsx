@@ -2,7 +2,7 @@
 import { Header } from '../../components/Header'
 import { PrimeiroCarrinho } from '../../components/PrimeiroCarrinho'
 import { SegundoCarrinho } from '../../components/SegundoCarrinho'
-import { Container } from './styles'
+import { Container, Footer } from './styles'
 
 export function Home() {
 
@@ -16,6 +16,11 @@ export function Home() {
         <PrimeiroCarrinho />
         <SegundoCarrinho />
       </Container>
+
+      <Footer>
+         Bem vindo(a), Guilherme
+      </Footer>
+    
 
     </>
   )

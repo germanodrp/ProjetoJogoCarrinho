@@ -13,7 +13,6 @@ import Uva from '../../assets/Uva.svg'
 //     image: {
 //         source: salgadin,
 //     }
-
 // }
 
 export function Produto(props) {
