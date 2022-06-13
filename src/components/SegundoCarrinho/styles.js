@@ -4,16 +4,14 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 display: flex;
-margin-left: 7rem;
-display: flex;
-padding: 2rem 2rem;
+margin-left: 3.813rem;
+margin-right: 0px;
+margin-top: 1.3rem; 
+justify-content: center;
 
 img {
-    
-    margin-right: 5rem;
-    width: 20rem;
-    height: 20rem;
+    width: 12.5rem;
+    height: 12.5rem;
     justify-content: center;
 }
-
 `

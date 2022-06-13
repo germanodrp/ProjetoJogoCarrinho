@@ -5,18 +5,23 @@ import styled from "styled-components";
 export const Content = styled.header`
 
 background: #1E90FF;
-height: 5rem;
+height: 3.75rem;
 display: flex;
-justify-content: left;
-padding: 1.25rem 2rem;
-width: 70rem;
+justify-content: center;
+width: 33rem;
 border-radius: 6px;
-margin-top: 2rem;
-margin-left: 8rem;
-gap: 2rem;
+margin-top: 1rem;
+margin-left: auto;
+margin-right: auto;
+gap: 1rem;
+
+@media screen and (max-width: 960px) {
+    padding: 0 0;
+  };
 
 img{
-    height: 3rem;
+    height: 3.75rem;
+    width: 3.75rem;
 }
 `
 

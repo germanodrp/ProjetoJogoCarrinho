@@ -6,12 +6,6 @@ export function Header() {
     return (
         <Content>
             <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
-            <Produto />
         </Content>
     )
 
