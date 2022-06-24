@@ -5,11 +5,12 @@ export const Container = styled.div`
 
 display: flex;
 justify-content: center;
-align-items: center;
 margin: auto;
+margin-top: 10rem;
+margin-left: 10rem;
 
 @media screen and (max-width: 1080px) {
-  padding: 3.75rem 3.75rem;
+  padding: 4.75rem 4.75rem;
   justify-content: center;
   align-items: center;
 };
