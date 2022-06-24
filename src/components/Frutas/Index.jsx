@@ -11,7 +11,7 @@ import { Container } from './styles'
 export function Frutas() {
     return (
         <Container>
-          <img src={BananaFun} id="BananaFun" alt="Imagem de queijo" />
+            <img src={BananaFun} id="BananaFun" alt="Imagem de queijo" />
             <img src={CocaCola} id="CocaCola" alt="Imagem de uma CocaCola" />
             <img src={Laranja} id="Laranja" alt="Imagem de uma Laranja" />
             <img src={milk} id="milk" alt="Imagem de um leite" />
@@ -20,7 +20,7 @@ export function Frutas() {
             <img src={Rosca} id="Rosca" alt="Imagem de uma Rosca" />
             <img src={Uva} id="Uva" alt="Imagem de uma uva" />
         </Container>
-            
+
     )
 
 }

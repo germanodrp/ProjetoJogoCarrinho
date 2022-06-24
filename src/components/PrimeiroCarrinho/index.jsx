@@ -1,10 +1,24 @@
 import carrinhoImg from '../../assets/carrinhoImg.svg'
-import { Container } from './styles'
+import { Container, Content, SectionFruts } from './styles'
+import CocaCola from '../../assets/CocaCola.svg'
+import Laranja from '../../assets/Laranja.svg'
+import BananaFun from '../../assets/BananaFun.svg'
 
 export function PrimeiroCarrinho() {
+
+
+
   return (
-    <Container>
-      <img src={carrinhoImg} alt="Carrinho de compras" />
-    </Container>
+    <Content>
+      <Container>
+        <img src={carrinhoImg} alt="carrinho de compras" />
+      </Container>
+
+      <SectionFruts>
+        <img src={Laranja} alt="carrinho de compras" />
+      </SectionFruts>
+
+
+    </Content>
   )
 }

@@ -7,14 +7,12 @@ import { Container } from './styles'
 export function Home() {
 
   return (
-    <>
-      <Container>
-        <PrimeiroCarrinho />
-        <Prateleira />
-        <SegundoCarrinho />
-      </Container>
-    
 
-    </>
+    <Container>
+      <PrimeiroCarrinho />
+      <Prateleira />
+      <SegundoCarrinho />
+    </Container>
+
   )
 }

@@ -1,17 +1,34 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
 
+
+
+
+export const Content = styled.div`
 
 display: flex;
-margin-left: 3.75rem;
-margin-right: 1.25rem;
-margin-top: 5.5rem;
-width: 14.063rem;
-height: 14.063rem;
+align-items: center;
+justify-content: center;
 
-img {
+`
+
+export const Container = styled.div`
+
+display: flex;
+margin-top: 5.5rem;
+margin-right: 2.5rem;
+
+    img {
     width: 14.063rem;
     height: 14.063rem;
+    display: flex;
 }
+
+`
+
+export const SectionFruts = styled.div`
+
+position: relative;
+right: 12.80rem;
+top: 19px;
 `
