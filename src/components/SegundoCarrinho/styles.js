@@ -4,14 +4,14 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 display: flex;
-margin-left: 3.813rem;
-margin-right: 0px;
-margin-top: 3rem; 
-justify-content: center;
+margin-right: 3.75rem;
+margin-left: 1.25rem;
+margin-top: 5.5rem;
+width: 14.063rem;
+height: 14.063rem;
 
 img {
-    width: 12.5rem;
-    height: 12.5rem;
-    justify-content: center;
+    width: 14.063rem;
+    height: 14.063rem;
 }
 `

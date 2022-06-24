@@ -1,25 +1,18 @@
 
-import { Header } from '../../components/Header'
+import { Prateleira } from '../../components/Prateleira'
 import { PrimeiroCarrinho } from '../../components/PrimeiroCarrinho'
 import { SegundoCarrinho } from '../../components/SegundoCarrinho'
-import { Container, Footer } from './styles'
+import { Container } from './styles'
 
 export function Home() {
 
   return (
     <>
-
-      <Header />
-
-
       <Container>
         <PrimeiroCarrinho />
+        <Prateleira />
         <SegundoCarrinho />
       </Container>
-
-      <Footer>
-         Bem vindo(a), Guilherme
-      </Footer>
     
 
     </>
