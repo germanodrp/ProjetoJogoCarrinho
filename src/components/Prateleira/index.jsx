@@ -10,17 +10,25 @@ import { useState } from "react"
 
 export function Prateleira() {
 
-    const [renderizaBanana, setRenderizaBanana] = useState(false)
+    const [renderizaBanana, setRenderizaBanana] = useState(true)
+    const [renderizaCoca, setRenderizaCoca] = useState(true)
+    const [renderizaLaranja, setRenderizaLaranja] = useState(true)
 
-    function verificaID(imagem) {
+    function verificaID(e) {
 
-        const id = imagem.target.id
+        const id = e.target.id
 
         if (id === 'BananaFun') {
-            alert('Parabens vc acertou 😁')
-        } else {
-            alert('Tente novamente 😌')
+            setRenderizaBanana(false)
+
         }
+        if (id === 'CocaCola') {
+            setRenderizaCoca(false)
+        }
+        if (id === 'Laranja') {
+            setRenderizaLaranja(false)
+        }
+
     }
     return (
         <Content>
@@ -30,24 +38,26 @@ export function Prateleira() {
             </Container>
 
             <ButtonClick onClick={verificaID}>
-                <img src={BananaFun} id="BananaFun" alt="Imagem de queijo" />
+                {renderizaBanana ?
+                    <img src={BananaFun} id="BananaFun" /> : null}
             </ButtonClick>
 
             <ButtonClick onClick={verificaID}>
-                <img src={CocaCola} id="CocaCola" alt="Imagem de queijo" />
-            </ButtonClick>
-
-            <ButtonClick onClick={verificaID}>
-                <img src={Laranja} id="Laranja" alt="Imagem de queijo" />
-            </ButtonClick>
-
-            <ButtonClick onClick={verificaID}>
-                <img src={milk} id="milk" alt="Imagem de queijo" />
+                {renderizaCoca ? <img src={CocaCola} id="CocaCola" /> : null}
             </ButtonClick>
 
 
             <ButtonClick onClick={verificaID}>
-                <img src={Moranguinho} id="Moranguinho" alt="Imagem de queijo" />
+                <img src={milk} id="milk" />
+            </ButtonClick>
+
+
+            <ButtonClick onClick={verificaID}>
+                {renderizaLaranja ? <img src={Laranja} id="Laranja" /> : null}
+            </ButtonClick>
+
+            <ButtonClick onClick={verificaID}>
+                <img src={Moranguinho} id="Moranguinho" />
             </ButtonClick>
 
 

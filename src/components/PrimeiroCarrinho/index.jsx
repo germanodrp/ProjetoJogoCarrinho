@@ -1,12 +1,15 @@
 import carrinhoImg from '../../assets/carrinhoImg.svg'
 import { Container, Content, SectionFruts } from './styles'
-import CocaCola from '../../assets/CocaCola.svg'
+
 import Laranja from '../../assets/Laranja.svg'
-import BananaFun from '../../assets/BananaFun.svg'
+import { useState } from 'react'
+
+
+
 
 export function PrimeiroCarrinho() {
 
-
+  const [fruta, setFruta] = useState(false)
 
   return (
     <Content>
@@ -15,7 +18,7 @@ export function PrimeiroCarrinho() {
       </Container>
 
       <SectionFruts>
-        <img src={Laranja} alt="carrinho de compras" />
+        {fruta ? <img src={Laranja} /> : null}
       </SectionFruts>
 
 
