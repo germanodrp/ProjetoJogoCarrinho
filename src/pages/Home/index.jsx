@@ -1,24 +1,21 @@
 
 import { Ajuda } from '../../components/ButtonAjuda'
-import { Prateleira } from '../../components/Prateleira'
-import { PrimeiroCarrinho } from '../../components/PrimeiroCarrinho'
+import { Prateleira } from '../../components/CarrinhoPrateleira'
 import { SegundoCarrinho } from '../../components/SegundoCarrinho'
-import { Container } from './styles'
+import { Container, Content } from './styles'
 
 export function Home() {
 
   return (
-    <>
+    <Content>
       <Container>
-        <PrimeiroCarrinho />
         <Prateleira />
         <SegundoCarrinho />
-
       </Container>
 
       <Ajuda />
 
-    </>
+    </Content>
 
   )
 }

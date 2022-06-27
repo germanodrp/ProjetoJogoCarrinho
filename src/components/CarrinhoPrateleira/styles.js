@@ -15,7 +15,7 @@ import styled from "styled-components";
 // `
 export const Container = styled.div`
 
-display: flex;
+display: block;
 margin-top: 3rem; 
 border: 0;
 margin: 0;
@@ -25,7 +25,7 @@ img{
   width: 18.75rem;
   height: 21.75rem;
   margin-top: 112px;
-  margin-left: -1.87rem;
+  margin-left: 2.13rem;
   margin-right: -2.5rem;
 
 
@@ -60,13 +60,34 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
 
+`
 
+export const ContentCarrinho = styled.div`
 
+display: flex;
+align-items: center;
+justify-content: center;
 
 `
 
+export const ContainerCarrinho = styled.div`
 
+display: flex;
+margin-top: 5.5rem;
+margin-right: 7rem;
 
+    img {
+    width: 14.063rem;
+    height: 14.063rem;
+    display: flex;
+}
 
+`
 
+export const SectionFruts = styled.div`
+
+position: relative;
+right: 17.30rem;
+top: 19px;
+`
 

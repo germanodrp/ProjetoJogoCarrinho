@@ -15,8 +15,11 @@ margin-left: 7rem;
   align-items: center;
 };
 
-
-
 `
 
+
+export const Content = styled.div`
+margin-top: -2rem;
+
+`
 
