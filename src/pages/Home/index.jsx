@@ -1,6 +1,7 @@
 
 import { Ajuda } from '../../components/ButtonAjuda'
 import { Prateleira } from '../../components/CarrinhoPrateleira'
+import { ModalPremio } from '../../components/ModalPremio'
 import { SegundoCarrinho } from '../../components/SegundoCarrinho'
 import { Container, Content } from './styles'
 
@@ -14,6 +15,8 @@ export function Home() {
       </Container>
 
       <Ajuda />
+
+      {/* <ModalPremio /> */}
 
     </Content>
 

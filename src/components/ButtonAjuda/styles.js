@@ -7,8 +7,8 @@ export const Button = styled.button`
    border: 0;
    background-color:  #87CEEB;
    display: flex;
-   text-align: right;
    border-radius: 40px;
+   margin-left: 95%;
 
    cursor: pointer;
 

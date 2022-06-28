@@ -3,7 +3,7 @@ import {
     Content, Container,
     ContainerCarrinho, SectionFruts,
     ContentCarrinho,
-    Congratulations
+    ButtonClick2,
 } from "./styles"
 import PrateleiraImg from '../../assets/PrateleiraImg.svg'
 import BananaFun from '../../assets/BananaFun.svg'
@@ -11,8 +11,11 @@ import CocaCola from '../../assets/CocaCola.svg'
 import Laranja from '../../assets/Laranja.svg'
 import milk from '../../assets/milk.svg'
 import Moranguinho from '../../assets/Moranguinho.svg'
-import { useState } from "react"
 import carrinhoImg from '../../assets/carrinhoImg.svg'
+import Uva from '../../assets/Uva.svg'
+import PaoFrances from '../../assets/PaoFrances.svg'
+import { useState } from "react"
+import { ModalPremio } from "../ModalPremio"
 
 
 
@@ -33,18 +36,18 @@ export function Prateleira() {
         const id = e.target.id
 
         if (id === 'BananaFun') {
-            setRenderizaBanana(false)
+            setRenderizaBanana(true)
             setRenderizaBananaCarrinho(true)
             setContador(contador + 1)
         }
         else if (id === 'CocaCola') {
-            setRenderizaCoca(false)
+            setRenderizaCoca(true)
             setRenderizaCocaColaCarrinho(true)
             setContador(contador + 1)
 
         }
         else if (id === 'Laranja') {
-            setRenderizaLaranja(false)
+            setRenderizaLaranja(true)
             setRenderizaLaranjaCarrinho(true)
             setContador(contador + 1)
 
@@ -60,13 +63,10 @@ export function Prateleira() {
 
     }
 
+    
+
     return (
         <>
-            
-
-            {contador === 3 ? <Congratulations>PARABENS</Congratulations> : null}
-           
-
             <ContentCarrinho>
                 <ContainerCarrinho>
                     <img src={carrinhoImg} alt="carrinho de compras" />
@@ -107,16 +107,24 @@ export function Prateleira() {
 
 
                 <ButtonClick onClick={verificaID}>
-                    {renderizaLaranja ? <img src={Laranja} id="Laranja" /> : null}
+                    <img src={Uva} id="Uva" />
                 </ButtonClick>
 
-                <ButtonClick onClick={verificaID}>
+                <ButtonClick2 onClick={verificaID}>
                     <img src={Moranguinho} id="Moranguinho" />
-                </ButtonClick>
+                </ButtonClick2>
+                <ButtonClick2 onClick={verificaID}>
+                    {renderizaLaranja ? <img src={Laranja} id="Laranja" /> : null}
+                </ButtonClick2>
+                <ButtonClick2 onClick={verificaID}>
+                    <img src={PaoFrances} id="PaoFrances" />
+                </ButtonClick2>
 
                         
             </Content>
 
+                {contador === 3 ? <ModalPremio /> : null}
+            
 
         </>
 

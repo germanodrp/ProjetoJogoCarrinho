@@ -15,7 +15,7 @@ export function Ajuda() {
                 <Question
                     size={32}
                     height={60}
-                    width={100}
+                    width={60}
                 />
 
             </Button>

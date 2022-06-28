@@ -17,9 +17,10 @@ export function ModalAjuda({ onClose }) {
                 <Button onClick={onClose} />
 
                 <Content>
-                    <h1>Instruções</h1><br/>
-                    <h2>Selecione a fruta que corresponde ao primeiro carrinho</h2><br/>
-                    <h2>Após a escolha selecione as 3 frutas equivalente para finalizar o game</h2>
+                    <h1>INSTRUÇÕES</h1><br/><br/><br/><br/>
+                    <h2>Memorize as imagens do carrinho a sua direita</h2><br/><br/>
+                    <h2>Clique na prateleira a imagem que correspondem a do carrinho.</h2><br/><br/>
+                    <h2>Selecione as imagens até que os carrinhos fiquem iguais.</h2>
                 </Content>
             </Container>
         </Modal>

@@ -23,6 +23,8 @@ export const Container = styled.div`
     height: 60%;
     color: #000;
     border-radius: 8px;
+    border-color: #87CEEB;
+    border: 4px solid;
 
 `
 
@@ -33,7 +35,7 @@ export const Button = styled.button`
     width: 45px;
     height: 30px;
     border: none;
-    right: calc(-104% + 62px);
+    right: calc(-104% + 80px);
     cursor: pointer;
     top: 9px;
     display: flex;

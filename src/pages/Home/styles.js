@@ -6,8 +6,8 @@ export const Container = styled.div`
 display: flex;
 justify-content: center;
 margin: auto;
-margin-top: 4rem;
-margin-left: 7rem;
+margin-top: 8rem;
+z-index: 1;
 
 @media screen and (max-width: 1080px) {
   padding: 4.75rem 4.75rem;
