@@ -91,3 +91,11 @@ right: 17.30rem;
 top: 19px;
 `
 
+
+
+export const Congratulations = styled.h1`
+ color: white;
+ height: 100px;
+ width: 200px;
+ align-items: center;
+`

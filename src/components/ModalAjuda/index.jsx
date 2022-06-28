@@ -17,7 +17,9 @@ export function ModalAjuda({ onClose }) {
                 <Button onClick={onClose} />
 
                 <Content>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore eveniet sed laudantium? Aspernatur, consequuntur? At asperiores iusto molestiae, doloribus nisi, sed ipsa commodi, velit vel dolor modi! Aliquam, et?
+                    <h1>Instruções</h1><br/>
+                    <h2>Selecione a fruta que corresponde ao primeiro carrinho</h2><br/>
+                    <h2>Após a escolha selecione as 3 frutas equivalente para finalizar o game</h2>
                 </Content>
             </Container>
         </Modal>

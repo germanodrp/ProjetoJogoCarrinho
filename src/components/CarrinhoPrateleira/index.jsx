@@ -2,7 +2,8 @@ import {
     ButtonClick,
     Content, Container,
     ContainerCarrinho, SectionFruts,
-    ContentCarrinho
+    ContentCarrinho,
+    Congratulations
 } from "./styles"
 import PrateleiraImg from '../../assets/PrateleiraImg.svg'
 import BananaFun from '../../assets/BananaFun.svg'
@@ -61,7 +62,10 @@ export function Prateleira() {
 
     return (
         <>
+            
 
+            {contador === 3 ? <Congratulations>PARABENS</Congratulations> : null}
+           
 
             <ContentCarrinho>
                 <ContainerCarrinho>
@@ -110,7 +114,7 @@ export function Prateleira() {
                     <img src={Moranguinho} id="Moranguinho" />
                 </ButtonClick>
 
-
+                        
             </Content>
 
 
