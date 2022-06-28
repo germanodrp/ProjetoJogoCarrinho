@@ -59,12 +59,6 @@ export function Prateleira() {
 
     }
 
-    function ReiniciarJogo() {
-
-    }
-
-    
-
     return (
         <>
             <ContentCarrinho>
@@ -120,11 +114,11 @@ export function Prateleira() {
                     <img src={PaoFrances} id="PaoFrances" />
                 </ButtonClick2>
 
-                        
+
             </Content>
 
-                {contador === 3 ? <ModalPremio /> : null}
-            
+            {contador === 3 ? <ModalPremio /> : null}
+
 
         </>
 

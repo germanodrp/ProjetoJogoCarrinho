@@ -18,7 +18,7 @@ align-items: center;
 
 
 export const Container = styled.div`
-    background-color: #fff;
+    background-color: #6495ED;
     width: 60%;
     height: 60%;
     color: #000;

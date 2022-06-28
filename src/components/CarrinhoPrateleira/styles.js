@@ -28,7 +28,7 @@ img{
 
 
 export const ButtonClick = styled.button`
-  background: #87CEEB;
+  background: #6495ED;
   margin: 5px;
   border: 0;
   align-items: center;
@@ -39,13 +39,13 @@ export const ButtonClick = styled.button`
   cursor: pointer;
 
   &:hover{
-    background: #4682B4;
+    background: #4169E1;
   }
   
 `
 
 export const ButtonClick2 = styled.button`
-  background: #87CEEB;
+  background: #6495ED;
   margin: 5px;
   border: 0;
   align-items: center;
@@ -56,7 +56,7 @@ export const ButtonClick2 = styled.button`
   cursor: pointer;
 
   &:hover{
-    background: #4682B4;
+    background: #4169E1;
   }
 `
 

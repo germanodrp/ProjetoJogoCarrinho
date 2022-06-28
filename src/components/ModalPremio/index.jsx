@@ -1,5 +1,5 @@
-import { Modal, Container, Content, Text} from './styles'
-import { Prateleira } from '../CarrinhoPrateleira'
+import { Modal, Text } from './styles'
+
 
 
 
@@ -19,7 +19,7 @@ export function ModalPremio({ onClose }) {
     return (
 
         <Modal id="Modal" onClick={handleOutsideClick}>
-          <Text>PARABENS!!! VOCE GANHOU!!!🏆🏆🏆</Text>
+            <Text>PARABENS!!! VOCE GANHOU!!!🏆🏆🏆</Text>
         </Modal>
     )
 }
