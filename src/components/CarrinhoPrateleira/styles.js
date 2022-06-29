@@ -16,7 +16,8 @@ import styled from "styled-components";
 export const Container = styled.div`
 
 display: flex;
-margin-top: 7.5rem;
+margin-top: 5%;
+margin-left: 10%;
 
 img{
   width: 20rem;
@@ -34,7 +35,7 @@ export const ButtonClick = styled.button`
   align-items: center;
   position: relative;
   right: 17rem;
-  top: 20px;
+  top: -8%;
   border-radius: 3px;
   cursor: pointer;
 
@@ -51,7 +52,7 @@ export const ButtonClick2 = styled.button`
   align-items: center;
   position: relative;
   right: 29rem;
-  top: 135px;
+  top: 30%;
   border-radius: 3px;
   cursor: pointer;
 
@@ -76,9 +77,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-width: 20rem;
-height: 20rem;
-margin-top: 50px;
+width: 30%;
+height: 50%;
+margin-top: 1%;
+margin-right: 3%;
+margin-left: 5%;
 
 `
 

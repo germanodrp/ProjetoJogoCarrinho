@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Modal = styled.div`
 width: 100%;
-height: 100vh;
+height: 100%;
 position: absolute;
 top: 0;
 left: 0;
@@ -19,8 +19,8 @@ align-items: center;
 
 export const Container = styled.div`
     background-color: #6495ED;
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 100%;
     color: #000;
     border-radius: 8px;
     border-color: #87CEEB;

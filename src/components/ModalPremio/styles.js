@@ -12,7 +12,7 @@ background-color: #00000080;
 `
 
 export const Text = styled.h1`
-margin-top: 100px;
+margin-top: 10%;
 color: white;
 `
 

@@ -6,7 +6,7 @@ export const Container = styled.div`
 display: flex;
 justify-content: center;
 margin: auto;
-margin-top: 8rem;
+margin-top: 6%;
 z-index: 1;
 
 @media screen and (max-width: 1080px) {

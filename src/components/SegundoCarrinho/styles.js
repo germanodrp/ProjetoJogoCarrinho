@@ -9,9 +9,9 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   
-  width: 20rem;
-  height: 20rem;
-  margin-top: 50px;
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
 
 
 `
@@ -19,7 +19,7 @@ export const Content = styled.div`
 export const Container = styled.div`
 
     display: flex;
-    margin-left: 7rem;
+    margin-right: -40%;
     
     img {
         width: 14.063rem;
@@ -32,7 +32,7 @@ export const Container = styled.div`
 export const SectionFruts = styled.div`
 
   position: relative;
-  right: 10.5rem;
+  right: 1.5rem;
   top: -20px;
 `
 
