@@ -19,8 +19,8 @@ align-items: center;
 
 export const Container = styled.div`
     background-color: #6495ED;
-    width: 70%;
-    height: 100%;
+    width: 30%;
+    height: 60%;
     color: #000;
     border-radius: 8px;
     border-color: #87CEEB;
@@ -64,8 +64,9 @@ export const Button = styled.button`
 
 
 export const Content = styled.div`
-margin-top: 20px;
+margin-top: 10px;
 text-align: center;
 font-weight: bold;
+font-size: 8px;
 
 `
