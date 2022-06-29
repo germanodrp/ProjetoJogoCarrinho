@@ -8,6 +8,15 @@ position: absolute;
 top: 0;
 background-color: #00000080;
 
+button{
+  border: 0;
+  margin: 0;
+  background: #6495ED;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  font-weight: bold;
+}
 
 `
 

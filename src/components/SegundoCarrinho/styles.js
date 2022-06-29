@@ -19,7 +19,7 @@ export const Content = styled.div`
 export const Container = styled.div`
 
     display: flex;
-    margin-right: -40%;
+    margin-right: 50px;
     
     img {
         width: 14.063rem;
