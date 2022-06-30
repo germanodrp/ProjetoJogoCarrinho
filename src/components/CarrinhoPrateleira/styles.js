@@ -79,7 +79,7 @@ justify-content: center;
 
 width: 30%;
 height: 50%;
-margin-top: 1%;
+margin-top: 2.5%;
 margin-right: 3%;
 margin-left: 5%;
 

@@ -19,7 +19,7 @@ z-index: 1;
 
 
 export const Content = styled.div`
-margin-top: -2rem;
+margin-top: 6rem;
 
 `
 

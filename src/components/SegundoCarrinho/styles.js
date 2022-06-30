@@ -11,7 +11,7 @@ export const Content = styled.div`
   
   width: 50%;
   height: 50%;
-  margin-top: 2%;
+  margin-top: 2.5%;
 
 
 `
@@ -19,7 +19,7 @@ export const Content = styled.div`
 export const Container = styled.div`
 
     display: flex;
-    margin-right: -40%;
+    margin-right: 5px;
     
     img {
         width: 14.063rem;
@@ -32,7 +32,7 @@ export const Container = styled.div`
 export const SectionFruts = styled.div`
 
   position: relative;
-  right: 1.5rem;
+  right: 10.5rem;
   top: -20px;
 `
 
